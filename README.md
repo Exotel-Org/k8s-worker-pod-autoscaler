@@ -73,10 +73,10 @@ metadata:
   name: example-wpa
 spec:
   minReplicas: 0
-  maxReplicas: 10
-  targetMessagesPerWorker: 2
+  maxReplicas: 30
+  targetMessagesPerWorker: 150
   deploymentName: example-deployment
-  queueURI: https://sqs.ap-south-1.amazonaws.com/{{aws_account_id}}/{{queue_prefix-queue_name-queue_suffix}}
+  queueURI: https://sqs.ap-south-1.amazonaws.com/82910/sms-sender
 ```
 
 ## WPA Controller
