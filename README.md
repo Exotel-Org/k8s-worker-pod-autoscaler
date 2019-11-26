@@ -67,7 +67,7 @@ Kubernetes does support custom metric scaling using Horizontal Pod Autoscaler. B
 ## WPA Resource
 
 ```yaml
-apiVersion: k8s.practo.dev/v1alpha1
+apiVersion: k8s.practo.dev/v1
 kind: WorkerPodAutoScaler
 metadata:
   name: example-wpa
